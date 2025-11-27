@@ -1,0 +1,20 @@
+id = "asp"
+name = "asp"
+version = "0.0.1"
+schema_version = 1
+description = "Classic ASP support."
+repository = "https://github.com/austincherry/zed-classic-asp"
+authors = ["Austin Cherry"]
+themes = []
+icon_themes = []
+languages = ["classicasp", "vbscript"]
+capabilities = []
+
+[grammars.classicasp]
+path = "grammars/classicasp.wasm"
+scope = "text.html.classicasp"
+
+[grammars.vbscript]
+path = "grammars/vbscript.wasm"
+scope = "source.vbscript"
+

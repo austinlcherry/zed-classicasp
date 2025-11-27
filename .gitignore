@@ -1,0 +1,12 @@
+# Ignore everything by default so we only check in the extension manifest and grammars.
+/*
+!.gitignore
+
+# Keep the VS Code extension manifest and grammar assets.
+!/asp/
+asp/*
+!asp/extension.toml
+!asp/grammars/
+!asp/grammars/**
+!asp/languages/
+!asp/languages/**

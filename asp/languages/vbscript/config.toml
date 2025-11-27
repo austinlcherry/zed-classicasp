@@ -1,0 +1,6 @@
+name = "VBScript"
+grammar = "vbscript"
+path_suffixes = []
+line_comments = ["'"]
+documentation = { start = "''", end = "''", prefix = "* ", tab_size = 1 }
+autoclose_before = ";:.,=}])>"
